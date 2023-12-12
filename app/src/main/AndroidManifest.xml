@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doctor">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DOCTOR">
+        <activity
+            android:name=".consultation"
+            android:exported="false" />
+        <activity
+            android:name=".meet"
+            android:exported="false" />
+        <activity
+            android:name=".videomeet"
+            android:exported="false" />
+        <activity
+            android:name=".userlist"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".usermyappointments"
+            android:exported="false" />
+        <activity
+            android:name=".patnappoint"
+            android:exported="false" />
+        <activity
+            android:name=".checklist"
+            android:exported="false" />
+        <activity
+            android:name=".offclinic"
+            android:exported="false" />
+        <activity
+            android:name=".patndashboard"
+            android:exported="false" />
+        <activity
+            android:name=".patnlogin2"
+            android:exported="false" />
+        <activity
+            android:name=".patnlogin1"
+            android:exported="false" />
+        <activity
+            android:name=".doctappointm"
+            android:exported="false" />
+        <activity
+            android:name=".doctprofile"
+            android:exported="false" />
+        <activity
+            android:name=".doctdashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Doctlogin"
+            android:exported="false" />
+        <activity
+            android:name=".Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".bookinclinic"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
